@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+instance/
+*.db
+
+# Node
+node_modules/
+dist/
+frontend/.env
+
+# Modelos treinados / dados
+backend/app/ml_analysis/data/training-labels.csv
+*.pkl
+*.joblib
